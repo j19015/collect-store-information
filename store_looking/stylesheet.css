@@ -1,0 +1,415 @@
+/*=========================================*/
+header{
+    height:80px;
+    width:100%;
+    background-color:#F1ECC3;
+}
+
+footer{
+    height:50px;
+    width:100%;
+    background-color:#515E63;
+}
+
+h1{
+    font-size:40px;
+}
+
+h2{
+    font-size:30px;
+}
+li{
+    
+    list-style:none;
+    float:left;
+    margin:0% 2px;
+}
+
+
+.main{
+    background-color:#C9D886;
+    clear:both;
+}
+.right{
+    float:left;
+    z-index:1;
+}
+.left{
+    float:right;
+    z-index:2;
+}
+.board{
+    background-image:url(../cover/cafe_bordeaux-France_landscape_wallpaper_1366x768.jpg); /* 画像のURLを指定       */
+    background-size:cover;                 /* 画像のサイズを指定    */
+    width:100%;                              /* 横幅のサイズを指定    */
+    height:1000px;  
+}
+.board2{
+  background-image:url(../cover/board2.png); /* 画像のURLを指定       */
+  background-size:cover;                 /* 画像のサイズを指定    */
+  width:100%;                              /* 横幅のサイズを指定    */
+  height:2000px;  
+}
+.example{
+  position: relative;
+}
+
+.example p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  /*文字の装飾は省略*/
+}
+
+.example img{
+  width: 100%;
+}
+
+.white{
+    background-color:#ffffff;
+}
+
+.rightgreen{
+    background-color:#C9D8B6;
+    
+}
+
+
+.font{ font-family: "Hannari"; }
+
+h1,h2,h3{
+    font-family: "Hannari"; 
+}
+
+.wrapper {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  p {
+    font-size:25px;
+    background: #C9D8B6;
+    border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+    padding: 2%;
+    width: auto;
+    margin: 10px;
+    margin-top:5%;
+  }
+
+  .waku{
+    vertical-align: top;
+    font-size:25px;
+    background:#57837B;
+    border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+    padding: 1%;
+    width: 60%;
+    margin-left:20%;
+    opacity:0.8;
+  }
+
+  .box1 {
+    border: 2px solid #333;
+  }
+  .box2 {
+    border: 6px solid #333;
+  }
+  .box3 {
+    border: 2px dashed #333;
+  }
+  .box4 {
+    border: 2px dotted #333;
+  }
+
+  /*select {
+    -moz-appearance: menulist;
+    -webkit-appearance: menulist;
+  }*/
+
+  select {
+    background-image: url(src/icon.png);
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+  }
+
+  .cp_iptxt {
+    position: relative;
+    width: 80%;
+    margin: 40px 3%;
+    padding-top:3%;
+  }
+  .cp_iptxt input[type='text'] {
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: #aaaaaa;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 2px 0 #837c7c inset;
+    border-radius: 4px;
+  }
+  .ef input[type='text']:focus {
+    outline: none;
+    box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+  }
+
+  .text{
+    font-weight:bold;
+  }
+
+  .cp_iptxt h1{
+    font-weight:bold;
+    color: #061b0c;/*文字色*/
+    padding: 0.5em 0;/*上下の余白*/
+    border-top: solid 3px #061b0c;/*上線*/
+    border-bottom: solid 3px #061b0c;/*下線*/
+  }
+
+  .cp_iptxt h3{
+    border-bottom:2px dotted #81a136;
+    border-left:10px solid  #81a136;
+    padding:7px;
+  }
+
+
+.btn,a.btn,button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  font-family: "Hannari";
+}
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #81a136;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #81a136;
+}
+
+
+a.btn--yellow {
+  color: #000;
+  background-color: #81A08F;
+  border-bottom: 5px solid #57837B;
+}
+
+a.btn--yellow:hover {
+  margin-top: 3px;
+  color: #000;
+  background: # fff20a;
+  border-bottom: 2px solid #81A08F;
+}
+
+a.btn-malformation {
+  font-size: 2rem;
+
+
+
+  color: #000;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: #658D82;
+}
+
+a.btn-malformation:hover {
+  color: #000;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+#footer {
+  position: relative;
+  margin-top: 40px;
+  color: #fff;
+}
+#footer a {
+  text-decoration: none;
+  color: #fff;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+#footer .primary {
+  padding: 40px 20px;
+  background: #333;
+}
+#footer .secondary {
+  display: flex;
+  padding: 40px 20px;
+  background: #222;
+}
+
+@media screen and (max-width: 767px) {
+  #footer .primary {
+    padding: 20px 20px;
+    background: #333;
+  }
+  #footer .secondary {
+    display: block;
+    padding: 20px 20px;
+  }
+}
+
+/* footer-logo */
+
+#footer .logo {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 26px;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  #footer .logo {
+    font-size: 16px;
+  }
+}
+
+/* address */
+
+.address {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .address {
+    font-size: 12px;
+  }
+}
+
+/* navi */
+
+.navi-row {
+  display: flex;
+  margin-top: 40px;
+}
+#footer .navi {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#footer .navi li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+#footer .navi li:first-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .navi-row {
+    display: block;
+    margin-top: 15px;
+  }
+  #footer .navi {
+    font-size: 12px;
+  }
+  #footer .navi li {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+}
+
+/* sns-navi */
+
+#footer .sns-navi {
+  margin: 0 0 0 auto;
+  padding: 0;
+}
+#footer .sns-navi li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  padding: 0;
+  font-size: 20px;
+}
+#footer .sns-navi li:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  #footer .sns-navi {
+    margin: 20px 0 0;
+    padding: 0;
+  }
+  #footer .sns-navi li {
+    margin: 0 20px 0 0;
+    padding: 0;
+    font-size: 18px;
+  }
+}
+
+/* sitenavi */
+
+#footer .sitenavi {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#footer .sitenavi li {
+  display: inline-block;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+#footer .sitenavi li:first-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  #footer .sitenavi {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+/* copyright */
+
+#footer .copyright {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+@media screen and (max-width: 767px) {
+  #footer .copyright {
+    width: 100%;
+    margin: 20px 0 0;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
