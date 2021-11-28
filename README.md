@@ -15,8 +15,7 @@ title:collect store information(店舗情報収集サービス)
 設計・開発
 * 【開発言語・技術】
 HTML/CSS,PHP,MYSQL,Javascript
-
-* 開発環境
+* 【開発環境】
 Xampp,windows10
 * 【WEBアプリケーション公開URL】
 今はなし
