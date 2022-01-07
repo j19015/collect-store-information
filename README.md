@@ -20,12 +20,12 @@ Xampp,windows10,chrome(解像度100%)
 * 【WEBアプリケーション公開URL】
 https://tech-base.net/tb-230314/store_looking/login.php
 
-*ユーザ側アカウント
-id:j19015@sangi.jp
+* ユーザ側アカウント<br>
+id:j19015@sangi.jp<br>
 pass:パスワード
   
-*店舗側アカウント
-id:mac1
+* 店舗側アカウント<br>
+id:mac1<br>
 pass:password
   
 * 【きっかけ】
